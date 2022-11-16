@@ -22,5 +22,28 @@
     </div>
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBkNG48qrLIzMgGCEgit0alnC2a8VowObM",
+          authDomain: "carconnections-a79f6.firebaseapp.com",
+          projectId: "carconnections-a79f6",
+          storageBucket: "carconnections-a79f6.appspot.com",
+          messagingSenderId: "470774091016",
+          appId: "1:470774091016:web:1c5511373ac42ac23870bd",
+          measurementId: "G-2RQQV548KD"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>

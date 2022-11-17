@@ -1,0 +1,9 @@
+node_modules/
+.cache/
+public/
+src/gatsby-types.d.ts
+.idea/
+.husky/
+.eslintrc.js
+tailwind.config.js
+
